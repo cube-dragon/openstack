@@ -53,7 +53,6 @@ jobs:
         # queries: security-extended,security-and-quality
     - name: Go
       run: |
-          predicate foo(string s) { s = "bar" }
           from int i
           where i = 1
           select i
